@@ -1,17 +1,24 @@
 import React from 'react';
 //import PokeDex from "./Pokedex"
-import Pokegame from "./Pokegame"
 
-//import PokeCard from "./PokeCard.js"
+
+import DiceRoll from "./DieRoll";
 import './App.css'
 
-function App() {
-  return (
-    <div className="App">
+class App extends React.Component {
 
-      <Pokegame />
-    </div>
-  );
+
+
+
+  render() {
+
+    return (
+      <div className="App">
+
+        <DiceRoll />
+      </div >
+    );
+  }
 }
 
 export default App;
