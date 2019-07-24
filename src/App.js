@@ -1,8 +1,8 @@
 import React from 'react';
-//import PokeDex from "./Pokedex"
-import CoinContainer from "./CoinContainer"
 
-//import DiceRoll from "./DieRoll";
+
+//import Box from "./Box"
+import BoxContainer from "./BoxContainer"
 import './App.css'
 
 class App extends React.Component {
@@ -14,8 +14,7 @@ class App extends React.Component {
 
     return (
       <div className="App">
-
-        <CoinContainer />
+        <BoxContainer />
       </div >
     );
   }
